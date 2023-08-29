@@ -5,11 +5,18 @@
     <link rel="stylesheet" href="stylesheet/stylesheet.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
     <h1>Disliking the Green Bay Packers</h1>
 
     <div>
         <h2>Containers:</h2>
-        <div>This is a container div.       </div>
+        <div>This is a container div.</div>
     </div>
 
     <h2>Why I Don't Like Them</h2>
@@ -36,12 +43,12 @@
     </table>
 
     <h2>Who's Your Least Favorite Packer?</h2>
-    <form>
-        <label for=" firstname">First Name:</label>
+    <form class="rounded-form">
+        <label for="firstname">First Name:</label>
         <input type="text" id="name" name="name" required><br><br>
 
-        <label for="lastname">Last Name</label>
-        <input type="lastname" id="lastname" name="lastname" required><br><br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
 
         <input type="submit" value="Submit">
     </form>
