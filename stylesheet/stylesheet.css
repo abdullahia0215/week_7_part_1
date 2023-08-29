@@ -59,3 +59,22 @@ input[type="email"] {
     padding: 5px;
     width: 100%;
 }
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3D550C;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles for links */
+a {
+    color: #3D550C;
+    text-decoration: none;
+}
+
+/* Styles for images */
+img {
+    max-width: 100%;
+    height: auto;
+}
